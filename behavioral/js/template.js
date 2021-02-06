@@ -50,11 +50,11 @@ Cleaner.prototype.duties = function () {
   return 'indoor cleaning';
 }
 
-let cook = new Cook(430);
+var cook = new Cook(430);
 console.log(cook.work()); // Cook salary is 430 dollars per month for cooking food.
 
-let waiter = new Waiter(535);
+var waiter = new Waiter(535);
 console.log(waiter.work()); // Waiter salary is 535 dollars per month for customer service.
 
-let cleaner = new Cleaner(260);
+var cleaner = new Cleaner(260);
 console.log(cleaner.work()); // Cleaner salary is 260 dollars per month for indoor cleaning.

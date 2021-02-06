@@ -75,9 +75,9 @@ function ByMetro() {
 
 ByMetro.prototype = Object.create(Transport.prototype);
 
-let ride = new Ride();
-let byCar = new ByCar();
-let byMetro = new ByMetro();
+var ride = new Ride();
+var byCar = new ByCar();
+var byMetro = new ByMetro();
 
 console.log(ride.go(byCar)); // 30 minutes
 console.log(ride.go(byMetro)); // 60 minutes

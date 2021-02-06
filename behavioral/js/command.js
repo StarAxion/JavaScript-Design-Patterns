@@ -43,9 +43,9 @@ function DoorControl() {
   };
 }
 
-let fridge = new Fridge();
-let command = new Command(fridge);
-let door = new DoorControl();
+var fridge = new Fridge();
+var command = new Command(fridge);
+var door = new DoorControl();
 
 door.open(command); // Fridge is opened
 door.close(command); // Fridge is closed
