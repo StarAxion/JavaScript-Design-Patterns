@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architectural Patterns</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <h1>MVP example</h1>
+      <h2>TODO list</h2>
+      <form class="todo-form">
+        <div>
+          <input type="text" class="todo-form__input" required placeholder="Task" />
+        </div>
+        <button class="todo-form__button" type="submit">Add task</button>
+      </form>
+      <ul class="todo-list"></ul>
+    </div>
+
+    <div class="container">
+      <h1>MVVM example</h1>
+      <div>
+        <h3>Name:</h3>
+        <input type="text" name="name" id="name">
+      </div>
+      <div>
+        <h3>Name copy:</h3>
+        <input type="text" name="name" id="nameCopy">
+      </div>
+    </div>
+  </main>
+
+  <script src="js/mvp.js"></script>
+  <script src="js/mvvm.js"></script>
+</body>
+
+</html>
